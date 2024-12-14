@@ -67,10 +67,29 @@
     <Compile Include="frm_DangNhap.Designer.cs">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_EditSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_EditSP.Designer.cs">
+      <DependentUpon>frm_EditSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_TaoDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_TaoDonHang.Designer.cs">
+      <DependentUpon>frm_TaoDonHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LopDungChung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_EditSP.resx">
+      <DependentUpon>frm_EditSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_TaoDonHang.resx">
+      <DependentUpon>frm_TaoDonHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

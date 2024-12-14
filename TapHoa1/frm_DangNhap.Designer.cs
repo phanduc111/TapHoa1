@@ -32,7 +32,7 @@
             this.btn_Thoat = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txt_MatKhau = new System.Windows.Forms.TextBox();
-            this.txt_TenNguoiDung = new System.Windows.Forms.TextBox();
+            this.txt_TaiKhoan = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -47,6 +47,7 @@
             this.btn_DangNhap.TabIndex = 4;
             this.btn_DangNhap.Text = "Đăng nhập";
             this.btn_DangNhap.UseVisualStyleBackColor = true;
+            this.btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
             // 
             // btn_Thoat
             // 
@@ -57,11 +58,12 @@
             this.btn_Thoat.TabIndex = 6;
             this.btn_Thoat.Text = "Thoát";
             this.btn_Thoat.UseVisualStyleBackColor = true;
+            this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txt_MatKhau);
-            this.groupBox1.Controls.Add(this.txt_TenNguoiDung);
+            this.groupBox1.Controls.Add(this.txt_TaiKhoan);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -80,12 +82,12 @@
             this.txt_MatKhau.Size = new System.Drawing.Size(124, 20);
             this.txt_MatKhau.TabIndex = 1;
             // 
-            // txt_TenNguoiDung
+            // txt_TaiKhoan
             // 
-            this.txt_TenNguoiDung.Location = new System.Drawing.Point(121, 31);
-            this.txt_TenNguoiDung.Name = "txt_TenNguoiDung";
-            this.txt_TenNguoiDung.Size = new System.Drawing.Size(124, 20);
-            this.txt_TenNguoiDung.TabIndex = 0;
+            this.txt_TaiKhoan.Location = new System.Drawing.Point(121, 31);
+            this.txt_TaiKhoan.Name = "txt_TaiKhoan";
+            this.txt_TaiKhoan.Size = new System.Drawing.Size(124, 20);
+            this.txt_TaiKhoan.TabIndex = 0;
             // 
             // label2
             // 
@@ -114,7 +116,7 @@
             this.Controls.Add(this.btn_Thoat);
             this.Controls.Add(this.groupBox1);
             this.Name = "frm_DangNhap";
-            this.Text = "Form1";
+            this.Text = "Dang nhap";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -127,7 +129,7 @@
         private System.Windows.Forms.Button btn_Thoat;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txt_MatKhau;
-        private System.Windows.Forms.TextBox txt_TenNguoiDung;
+        private System.Windows.Forms.TextBox txt_TaiKhoan;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }
